@@ -25,8 +25,35 @@ The command sudo setoolkit in the prompt gives menu with set prompt:
 
 
 
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/755d4e81-2e4a-4eda-8dd5-b281da49a946)
 
+It displays the following menu and select 2 for Website Attack Vectors:
 
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/7e3635ff-8478-46c8-9ee9-70b0d2c5331c)
+
+The website Attack Vectors displays the following menu. In this menu3 for Credential Harvester Attack Method is selected:
+
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/3deda3ce-f26d-440b-b58d-aa51fda8d191)
+
+The Credential Harvester Attack Method displays the following menu. In this menu1 for Web Templates is selected:
+
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/0cbe45d3-c9ef-477b-ad20-db89e011f0b7)
+It shows the following screen in which the ip address of the attacker need to be given which is the default value:
+
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/e7d5ecc8-92b9-4b93-b771-038d0dbddc97)
+
+It shows the following screen in which the option Google can be selected:
+
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/eb6d07ee-c060-40ae-bb28-290481a4c414)
+
+SET starts my Kali Linux Webserver on port 80, with the fake Google account login page. The setup is done:
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/69532c37-b9c5-4b13-bb4b-145a53dd31da)
+
+In windows IE, on giving the url http://192.168.43.135, the fake Google page is displayed. The victim can enter the username and password:
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/9154a79d-75cf-43bc-81f2-d3e5e3c27a7f)
+
+SET logs the information regarding the Google credentials:
+![image](https://github.com/kavisree86/creating-a-backdoor-with-SET/assets/145759687/1832855e-6819-4e03-881a-6495c4a6a1b5)
 
 
 ## RESULT:
